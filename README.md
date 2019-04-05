@@ -1,7 +1,8 @@
-Documentação da api:
+## Documentação da api:
 
 Todas as requests que não sejam de registro ou login, exigem que o usuário esteja logado para que funcione.
 
+```
 Registro:
   URL: /user/register
   Método: post
@@ -298,15 +299,4 @@ Apaga Comentário:
           code: 400
             "error": "No record was found"
   Descrição: Apaga um comentário em qualquer publicação desde que o comentário seja do usuário logado, ou apaga qualquer comentário em um post do usuário logado
-
-
-
-
-
-
-
-
-
-
-
-
+```
