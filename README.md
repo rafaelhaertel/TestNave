@@ -2,6 +2,8 @@
 
 Todas as requests que não sejam de registro ou login, exigem que o usuário esteja logado para que funcione.
 
+OBS: Os códigos de resposta estão simplificados em 200 e 400 por conveniência
+
 ```
 Registro:
   URL: /user/register
